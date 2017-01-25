@@ -7,18 +7,26 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
 
     <!-- Fontawesome -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Your style -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="sidebar">
-    ...
+      <div class="menu">
+        <p>
+          <a href="#summary"><i class="fa fa-info" aria-hidden="true"></i> Info</a>
+        </p>
+        <p>
+          <a href="#things I do"><i class="fa fa-clock-o" aria-hidden="true"></i> First things in the morning</a>
+        </p>
+        <p><a href="#about"><i class="fa fa-id-badge" aria-hidden="true"></i> About</a></p>
+      </div>
     </div>
     <div id="page-content">
       <div class="container text-align">
-        <div class="card">
+        <div class="card" id="summary">
 
           <img src="images/Profile.jpg" alt="Ma photo de profil" class="profile-picture img-circledcorners">
 
@@ -43,7 +51,7 @@
           </ul>
         </div>
 
-        <div class="card">
+        <div class="card" id="things I do">
           <h2>First things I do in the morning</h2>
 
           <table class="table-padding">
@@ -74,7 +82,7 @@
           </table>
         </div>
 
-        <div class="card">
+        <div class="card" id="about">
           <h2>About this page</h2>
           <p>This is my first page coded ever. Please be indulgent (just managing your expecations :)</p>
         </div>
