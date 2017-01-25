@@ -1,0 +1,118 @@
+/* Here goes your CSS */body {
+  background-color: #E9EBEE;
+  font-family: open_sans;
+  color: #7D7D7D;
+  font-size: 16;
+  line-height: 24px;
+}
+
+h1 {
+  color: #DD5555;
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+h2{
+  color: #7D7D87;
+  font-family: montserrat;
+  font-weight: light;
+  font-size: 22px;
+}
+
+a{
+  color: #CCCCD1;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DD5555;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: white;
+  width: 600px;
+  padding: 10px;
+  margin: 30px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 2%;
+}
+
+.profile-picture{
+  width: 150px;
+  heigth: 150px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.profile-picture:hover{
+  transform:scale(1.05,1.05);
+  transition: 1s;
+}
+
+.img-circledcorners{
+  border-radius: 30%;
+}
+
+.text-align{
+  text-align: center;
+}
+
+ul{
+  margin: 20 0 0 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.btn-red{
+  heigth: 50px;
+  width: 150px;
+  background-color: #DD5555;
+  color: white;
+  padding: 10 20;
+  border-radius: 4px;
+}
+
+.btn-red:hover{
+  color: white;
+  background-color: #C61414;
+}
+
+.table-padding{
+  padding: 10px;
+}
+
+.table-data-padding{
+  padding: 10px;
+  vertical-align: top;
+}
+
+.image-spin:hover{
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(3600deg);
+    }
+}
+
+
